@@ -86,7 +86,7 @@
     padding: 0px;
     border: none;
     border-radius: 64px;
-
+    background-color: #fff;
 }
 
 .text-heading{
@@ -285,6 +285,9 @@
     line-height: 24px;
 }
 
+.logo-mobile{
+    display: none;
+}
 
 .footer img{
     width: 250px;
@@ -336,6 +339,31 @@
 
     .intro-element{
         width: 100%;
+        margin: 0 auto;
+    }
+
+    .intro-child-element .logo{
+        display: none;
+    }
+
+    .intro-child-element .adress{
+        margin-top: 40px;
+        display: block;
+    }
+
+    .intro-child-element .logo{
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+
+    .intro-child-element img{
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border: none;
+        border-radius: 75px;
+        display: block;
+        margin-bottom: 20px;
         margin: 0 auto;
     }
 
