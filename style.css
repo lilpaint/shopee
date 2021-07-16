@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 100px; 
+    background-color: rgb(255,239,232);
+    margin: 0 auto;
+}
+
+.element{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.element img{
+    width: 80px;
+    height: 80px;
+
+}
+
+#nav {
+    width: 70%;
+    float: right;
+}
+
+.element ul li {
+    display: inline-block;
+    padding: 6px 14px;
+    background-color: rgb(232,107,48);
+    border: none;
+    border-radius: 8px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+.element a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main{
+}
+.img-ads{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.img-ads img{
+    width: 100%;
+}
+
+.intro{
+    background-color: #FFEFE8;
+}
+
+.intro-element{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.intro-element img{
+    width: 100%;
+
+}
+
+.intro-child-element{
+}
+
+.intro .logo{
+    width: 110px;
+    height: 110px;
+    margin-right: 32px;
+    padding: 0px;
+    border: none;
+    border-radius: 64px;
+
+}
+
+.text-heading{
+    font-size: 24px;
+    margin: 16px 0px;
+    font-weight: 500;
+}
+
+.intro-light{
+    background-color: rgb(247,146,50);
+    color: #fff;
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-right: 4px;
+}
+.child{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.intro-service{
+    text-align: center;
+}
+
+.button{
+    padding: 8px 16px;
+    background-color: #E86830;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+}
+
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.slogan {
+    padding: 8px 16px;
+    margin-top: 16px;
+    border: 2px solid #E86830;
+    display: inline-block;
+}
+
+.service{
+    margin: 0 auto;
+    text-align: center;
+}
+.service-element{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.service-child-element{
+    width: 49%;
+    display: inline;
+
+}
+
+.service-child-element img{
+    width: 400px;
+    height: 300px;
+
+}
+
+.feedback-child-element{
+    background-color: #E86830;
+    padding: 16px;
+    width: 30%;
+    display: inline-block;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+
+.feedback-child-element-2{
+    background-color: #fff;
+    padding: 16px;
+    width: 20%;
+    display: inline-block;
+}
+
+.feedback-child-element img{
+    width: 130px;
+    height: 130px;
+    border: none;
+    border-radius: 80px;
+}
+
+.fb-title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.stat-element{
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    margin-right: 28px;
+    height: 200px;
+}
+
+.stat-element svg{
+    width: 60px;
+    height: 60px;
+}
+
+.text-desc{
+    font-size: 20px;
+}
+
+.stat-heading{
+    font-size: 24px;
+    color: #E86830;
+}
+
+.text-contact{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.footer{
+    background-color: #E86830;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.footer-element{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.footer .text-heading{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .text-desc{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+    align-items: stretch;
+    align-content: stretch;
+}
+.tab-contact{
+    width: 70%;
+    display: inline-block;
+}
+.tab-contact2{
+    max-width: 28%;
+    float: right;
+    display: inline-block;
+    
+}
+
+.tab-contact2 .logo{
+    background-color: #fff;
+    border: none;
+    border-radius: 125px;
+    width: 250px;
+    height: 250px;
+    
+}
+.contact-heading{
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.contact .child-content{
+    color: #fff;
+    line-height: 24px;
+}
+
+
+.footer img{
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+@media (max-width: 576px) { 
+    .logo{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .logo img{
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+    #nav{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        
+        align-items: stretch;
+        align-content: stretch;
+        
+    }
+
+    #nav ul{
+        
+
+    }
+
+    .element{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .element ul li{
+        width: 25%;
+        margin: 0px;
+        
+    }
+
+    .main .img-ads{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .intro-element{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .service-element{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .service-child-element{
+        width: 100%;
+    }
+    .service-child-element img{
+        width: 100%;
+    }
+    .feedback-child-element{
+        width: 80%;
+    }
+
+    .contact .logo{
+        display: none;
+    }
+    .text-heading{
+        text-align: center;
+    }
+
+    .stat{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .stat-element{
+        width: 50%;
+    }
+
+    .footer-element{
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .contact{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .footer .content {
+        width: 100%;
+    };
+    .footer p{
+        display: block;
+        width: 100%;
+    }
+    .text-desc{
+        text-align: center;
+    }
+}
